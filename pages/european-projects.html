@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang=en-gb>
+
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121053879-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-121053879-1');
+
+	</script>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="../images/icons/logo32px.png" />
+	<title> European Projects &ndash; CED Solomon </title>
+
+	<meta name="keywords" content="European Projects &ndash; CED Solomon, Personal development for youth, Professional development, personal development courses, youth development, Non-formal education, Non-formal activities, Self-knowledge youth education, activities for the youth, european youth projects, European youth exchange, multicultural experience" />
+
+	<meta name="description" content="European Projects Page - including a list of the main european projects sustained by the association. " />
+
+
+	<link href="../style/style.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+	<script>
+		$(function() {
+			$("#accordion").accordion({
+				collapsible: true
+			});
+		});
+
+	</script>
+
+
+</head>
+
+<body>
+
+	<div class="activities-wrapper european-wrapper">
+
+		<!-- Beginning of the header -->
+		<header class="header european-header">
+
+			<!-- Special Buttons - Donante & Become a member -->
+			<div id="header-actions">
+				<div id="donate">
+					<a href="#"> <strong> DONATE </strong> </a>
+				</div>
+				<div id="member">
+					<a href="#"> <strong>BECOME A MEMBER</strong> </a>
+				</div>
+			</div>
+
+			<!-- Logo & Hamburger menu container -->
+
+			<div id="logo">
+				<a href="../index.html"><img src="../images//icons/logosolomon.png" alt="logo"></a>
+			</div>
+
+			<!-- Menu Area -->
+			<div class="burger-menu" onclick="myFunction(this)">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+
+
+
+			<!-- Function to show/hide the menu and change the animation -->
+			<script>
+				function myFunction(y) {
+					var x = document.getElementById("menu-display");
+					if (x.style.display === "flex") {
+						x.style.display = "none"
+					} else {
+						x.style.display = "flex"
+					}
+					y.classList.toggle("change");
+				}
+
+			</script>
+
+			<!-- Here is the menu list for Mobile -->
+			<div class="menu-elements" id="menu-display">
+				<strong>MENU</strong><br>
+				<a href="../pages/activities.html" id="activity">Activity</a>
+				<a href="../pages/about-us.html" id="about_us">About Us</a>
+				<a href="#" id="team">Team</a>
+				<a href="#" id="partners"> Partners </a>
+				<a href="#footer-contact" id="contact">Contact</a>
+			</div>
+			<!-- Menu List for Tablet and Desktop Mode -->
+			<div class="menu-elements-desktop">
+				<a href="../pages/activities.html" id="activity-desktop">Activity</a>
+				<a href="../pages/about-us.html" id="about_us-desktop">About Us</a>
+				<a href="#" id="team-desktop">Team</a>
+				<a href="#" id="partners-desktop"> Partners </a>
+				<a href="#footer-contact" id="contact-desktop">Contact</a>
+			</div>
+		</header>
+		<!-- end of .header-->
+
+		<!-- start of the content -->
+
+		<div class="middle middle-european">
+			<div class="activities-container">
+
+				<div id="page-intro" class="page-intro-title">
+
+					<div id="activity-header">
+						<h1> Activity </h1>
+					</div>
+
+					<div id="show-case">
+						<button id="show"> Show Options </button>
+					</div>
+
+				</div>
+
+
+				<!-- Script to Show and Hide the Menu for categories  -->
+				<script>
+					$(document).ready(function() {
+						$(document).ready(function() {
+							$("#showhide").hide();
+						});
+						$("#show").click(function() {
+							$("#showhide").show();
+						});
+						$("#hide").click(function() {
+							$("#showhide").hide();
+						});
+					});
+
+				</script>
+
+				<!-- Here starts the Accordion content with the close button-->
+
+				<div id="showhide">
+					<button id="hide">X</button>
+
+					<div id="accordion">
+						<h3> &#9660; European Projects</h3>
+						<div class="accordion-text">
+							<p>The organization focused on developing and implementing a wide range of projects on a European level.
+							</p>
+							<p>Each of our European projects has specific objectives and comes to fulfill the needs that youth signals, with support from the network partnerships from countries all over Europe.</p>
+
+							<p id="links"><a href="european-projects.html">See the projects </a></p>
+						</div>
+
+						<h3> &#9660; Personal Development Courses</h3>
+						<div class="accordion-text">
+							<p>The NGO tries constantly to research and to great the expectations of the youth.
+							</p>
+							<p>We organize regularly courses within the areas that are vital nowadays in the community: leadership, conflict management, entrepreneurship, healthy lifestyle, sports, etc.</p>
+						</div>
+
+						<h3> &#9660; Summer Camps</h3>
+						<div class="accordion-text">
+							<p>We made a tradition on organizing summer camps, because we believe in the natural desire of children to explore the world and we want to be part of it.
+							</p>
+							<p>Our volunteers will provide the access to activities which stimulate the powerful resources children already have, in a healthy environment. </p>
+						</div>
+
+						<h3> &#9660; Cultural Activities</h3>
+						<div class="accordion-text">
+							<p>There are a few initiatives in Romania for artistic and cultural education in general. But we believe that young artists and the future people within the cultural area need support and recognition from the society. </p>
+							<p> That is way, through our cultural events in art, history, literature, we want to stimulate the performance and to encourage youth of great value. </p>
+						</div>
+
+						<h3> &#9660; Team Building</h3>
+						<div class="accordion-text">
+							<p>Nothing in the world can go well without great communities. </p>
+							<p>. Communication, relationship, acquiring skills, getting out of the comfort zone, involvement in social life, meeting new people, understanding of diversity, team work- these are the matters we bring out for the youth, in our team buildings activities, in order to create better communities.</p>
+						</div>
+					</div>
+				</div>
+				<!-- End of Page Intro - Title and Filter Menu -->
+
+				<!-- Start of the Main Content -->
+
+
+				<main class="european-projects-content">
+
+					<h1> &bull; European Projects:</h1>
+
+					<div class="european-projects european-projects-desktop">
+
+						<div class="project-container project-container-desktop">
+
+							<!-- Project Short Description Container -->
+							<div class="short-description">
+
+								<picture>
+									<source media="(min-width: 600px)" srcset="../images/projects/great4mylife-600px.jpg">
+									<source media="(min-width: 900px)" srcset="../images/projects/great4mylife.jpg">
+									<img src="../images/projects/great4mylife-320px.jpg" alt="Group Picture" style="width:auto;">
+								</picture>
+
+								<h2> GREAT 4 MY LIFE </h2>
+								<p> "Great 4 My Life" is the new project of SOLOMON association, project which will roll out between 1 to 11 September in Brasov .</p>
+								<p> During this project, there will be participating teenagers between 18 to 26 years old from Bulgary, Italy, Hungary, Lithuania, Turkey and Romania </p>
+								<button id="greatmylife"> MORE </button>
+
+							</div>
+
+							<!-- Modal Content -->
+
+							<div id="life" class="modal">
+
+								<div class="modal-life">
+
+									<span class="close"> &times;</span>
+
+									<h2> Great 4 My Life </h2>
+
+									<picture>
+										<source media="(min-width: 600px)" srcset="../images/projects/great4mylife-600px.jpg">
+										<source media="(min-width: 900px)" srcset="../images/projects/great4mylife.jpg">
+										<img src="../images/projects/great4mylife-320px.jpg" alt="Group Picture" style="width:auto;">
+									</picture>
+									<!-- Text for Mobile and Desktop version -->
+									<div class="text-mobile">
+										<p>The main need and the general goal from which we developed the project “Great 4 MY Life”, according also with the general targets of the Erasmus+ program, is developing a lifestyle that is healthy, active, tolerant and involved. </p>
+										<p> The specific objectives are: </p>
+										<p> 1. Increasing the level of awareness to the importance of a healthy diet to our 42 participants (35 youngsters and 7 group leaders) from Bulgaria, Italy, Lithuania, Malta, Hungary, Turkey and Romania during the 11 days of activities </p>
+										<p> 2. Understanding the importance of interaction and communication in community</p>
+										<p> 3. Understanding the benefits of using sport such as an instrument of social inclusion</p>
+										<p>Youngsters will develop basic competences of a lifestyle that is healthy, active, tolerant and involved and will have the possibilities to interact through the opportunities offered by the Erasmus+ program. The project will be based on informal and non-formal learning methods, will be participatory, experimental and will allow working in groups in interactive workshops.</p>
+									</div>
+									<!-- Text for Desktop Version Only -->
+									<div class="text-desktop">
+										<p>Youngsters will have the opportunity to discuss and to understand the importance and necessity of their involvement on long term in the problems of a healthy lifestyle, to find and even implement practical solutions for improving quality of life. </p>
+										<p> Youth will be introduced to examples of good practice and new diet habits, so they will understand that marginalization and stereotypes can be exceeded, they will make physical activities and will learn to work in mix international teams. </p>
+										<p>
+											The project wants to put an accent on finding ideas that are creative and innovative through realizing a video material and a brochure from which the participants intend to send a message to the community.
+										</p>
+									</div>
+								</div>
+								<!-- The Modal  https://www.w3schools.com/howto/howto_css_modals.asp -->
+
+								<script>
+									// Get the modal
+									var modal1 = document.getElementById('life');
+
+									// Get the button that opens the modal
+									var btn1 = document.getElementById("greatmylife");
+
+									// Get the <span> element that closes the modal
+									var span1 = document.getElementsByClassName("close")[0];
+
+									// When the user clicks the button, open the modal 
+									btn1.onclick = function() {
+										modal1.style.display = "block";
+									}
+
+									// When the user clicks on <span> (x), close the modal
+									span1.onclick = function() {
+										modal1.style.display = "none";
+									}
+
+									// When the user clicks anywhere outside of the modal, close it - doesn't work, maybe creates a bug with another function 
+									window.onclick = function(event) {
+										if (event.target == modal1) {
+											modal1.style.display = "none";
+										}
+									}
+
+								</script>
+							</div>
+							<!-- End of Modal Content -->
+						</div>
+						<!-- End of First Project Container -->
+
+						<!-- Start of 2nd Porject Container -->
+						<div class="project-container project-container-desktop">
+							<!-- Project Short Description Container -->
+							<div class="short-description">
+								<picture>
+									<source media="(min-width: 600px)" srcset="../images/projects/break-your-boundaries-600px.jpg">
+									<source media="(min-width: 900px)" srcset="../images/projects/break-your-boundaries.jpg">
+									<img src="../images/projects/break-your-boundaries-320px.jpg" alt="Group Picture" style="width:auto;">
+								</picture>
+
+								<h2> BREAK YOUR BOUNDRIES </h2>
+								<p> The idea of this project is to build a new way of thinking about youth employability as a tool to develop the participants, and a way of developing the NGO itself.</p>
+								<p>“Once you have realized that you can achieve anything you want in life, you meet a new, bigger, and more compelling problem – namely, choosing what it is you want to achieve.” Marjorie Mensink.
+								</p>
+
+								<button id="breakyourboundries"> MORE </button>
+							</div>
+							<!-- Modal Content -->
+
+							<div id="break" class="modal">
+
+								<div class="modal-life">
+
+									<span class="close-break"> &times;</span>
+
+									<h2> BREAK YOUR BOUNDRIES! </h2>
+
+									<picture>
+										<source media="(min-width: 600px)" srcset="../images/projects/break-your-boundaries-600px.jpg">
+										<source media="(min-width: 900px)" srcset="../images/projects/break-your-boundaries.jpg">
+										<img src="../images/projects/break-your-boundaries-320px.jpg" alt="Group Picture" style="width:auto;">
+									</picture>
+									<!-- Text for mobile and desktop version -->
+
+									<div class="text-mobile">
+										<p>The idea of this project is to build a new way of thinking about youth employability as a tool to develop the participants, and a way of developing the NGO itself.</p>
+										<p> First, we will look on the right skills (and what is our ROLE on this process - as a youth and NGO) Then we will discuss what are this COMPETENCES that we have and how can we measure them.
+										</p>
+										<p>
+											After this, youth will experiment it themselves to better understand with others, including INTERCULTURAL COMMUNICATION.
+										</p>
+										<p>
+											We will also discuss on how young people can express their competences effectively, and how can we support them in understanding the VALUE and gather the evidences of their ability.
+										</p>
+										<p>
+											This process will be done for 42 youth (18-28 age old) and 7 youth leaders from 7 countries involved in this project, during 11 days of effective activities in August-September 2017 in Romania.
+										</p>
+									</div>
+
+									<!-- Extra text for desktop version -->
+									<div class="text-desktop">
+										<p>In our opinion, the road to employability or how to get the right job consist in assessing the right skills (required from employers), knowing yourself and the ability to communicate with others. </p>
+										<p>First, we will look on the right skills (and what is our ROLE on this process - as a youth and NGO) </p>
+										<p>
+											Then we will discuss what are this COMPETENCES that we have and how can we measure them.
+										</p>
+										<p>After this, youth will experiment it themselves to better understand with others, including INTERCULTURAL COMMUNICATION.</p>
+										<p>We will also discuss on how young people can express their competences effectively, and how can we support them in understanding the VALUE and gather the evidences of their ability.</p>
+									</div>
+								</div>
+
+								<!-- The Modal  https://www.w3schools.com/howto/howto_css_modals.asp -->
+
+								<script>
+									// Get the modal
+									var modal2 = document.getElementById('break');
+
+									// Get the button that opens the modal
+									var btn2 = document.getElementById("breakyourboundries");
+
+									// Get the <span> element that closes the modal
+									var span2 = document.getElementsByClassName("close-break")[0];
+
+									// When the user clicks the button, open the modal 
+									btn2.onclick = function() {
+										modal2.style.display = "block";
+									}
+
+									// When the user clicks on <span> (x), close the modal
+									span2.onclick = function() {
+										modal2.style.display = "none";
+									}
+
+									// When the user clicks anywhere outside of the modal, close it - doesn't work, maybe creates a bug with another function 
+									window.onclick = function(event) {
+										if (event.target == modal2) {
+											modal2.style.display = "none";
+										}
+									}
+
+								</script>
+							</div>
+							<!-- End of Modal Content -->
+						</div>
+						<!-- End of Second Project -->
+
+						<!-- Start of 3rd Project Container -->
+						<div class="project-container project-container-desktop">
+							<!-- Project Short Description Container -->
+							<div class="short-description">
+
+								<picture>
+									<source media="(min-width: 600px)" srcset="../images/projects/youth-today-600px.jpg">
+									<source media="(min-width: 900px)" srcset="../images/projects/youth-today.jpg">
+									<img src="../images/projects/youth-today-320px.jpg" alt="Group Picture" style="width:auto;">
+								</picture>
+
+								<h2> Youth Today </h2>
+
+								<p> Our Association has identified among the young people who graduate high school or university a keen sense of disorientation regarding their future. </p>
+								<p> One of the issues often recognized by young people is that there is a mismatch between the things learnt in school and the things they are required as experience on the labor market. </p>
+								<p>
+									The information presented during the courses are not relevant to the employers and their requirements are difficult to accomplish for a young graduate.</p>
+								<button id="soul-mirror"> MORE </button>
+
+							</div>
+
+							<!-- Modal Content -->
+
+							<div id="soul" class="modal">
+
+								<div class="modal-life">
+
+									<span class="close close-soul"> &times;</span>
+
+									<h2> Youth Today </h2>
+
+									<picture>
+										<source media="(min-width: 600px)" srcset="../images/projects/youth-today-600px.jpg">
+										<source media="(min-width: 900px)" srcset="../images/projects/youth-today.jpg">
+										<img src="../images/projects/youth-today-320px.jpg" alt="Group Picture" style="width:auto;">
+									</picture>
+
+									<!-- Text for Mobile and Desktop version -->
+									<div class="text-mobile">
+										<p> The awareness that the information received in school will not bring an acceptable value for the society leads to an increasing number of graduates who drop courses trying "something else". </p>
+										<p> However, some of these young people no longer find their place either in school or in society. </p>
+										<p> This thing has as an effect, besides a low self-esteem, an increase of the unemployment among the youth and a very low level of their participation in the activities of the NGOs and the community. </p>
+										<p> Together with the youth we have identified a very low degree of understanding the entrepreneurial opportunities offered by volunteering through non-formal education in their personal development. </p>
+										<p>The lack of support provided to the young people in this direction leads to a static society, aged in terms of the involvement in the society.</p>
+									</div>
+									<!-- Text for Desktop Version Only -->
+									<div class="text-desktop">
+										<p>The young people will adapt to a new development process where they will be challenged so that their talent and skills to be put into value and to undertake something, to be entrepreneurs, thus contributing to the decrease of unemployment among young people.
+										</p>
+										<p> We can’t overlook the key concept of entrepreneurship, entrepreneurship education, a concept that supports the young people in order to do something, to put into practice the information, desires and experiences gained for managing their own project with various innovative activities.
+										</p>
+										<p>
+											By this project a follow-up will be provided contributing to a good collaboration between the direct partners involved in this exchange, who wish to ensure the continuity of the project began with the funding of the Erasmus + project, bringing an adding value to the European community and multiplying the results at as many young people as possible.
+
+										</p>
+									</div>
+								</div>
+								<!-- The Modal  https://www.w3schools.com/howto/howto_css_modals.asp -->
+
+								<script>
+									// Get the modal
+									var modal3 = document.getElementById('soul');
+
+									// Get the button that opens the modal
+									var btn3 = document.getElementById("soul-mirror");
+
+									// Get the <span> element that closes the modal
+									var span3 = document.getElementsByClassName("close-soul")[0];
+
+									// When the user clicks the button, open the modal 
+									btn3.onclick = function() {
+										modal3.style.display = "block";
+									}
+
+									// When the user clicks on <span> (x), close the modal
+									span3.onclick = function() {
+										modal3.style.display = "none";
+									}
+
+									// When the user clicks anywhere outside of the modal, close it - doesn't work, maybe creates a bug with another function 
+									window.onclick = function(event) {
+										if (event.target == modal3) {
+											modal3.style.display = "none";
+										}
+									}
+
+								</script>
+							</div>
+							<!-- End of Modal Content -->
+						</div>
+						<!-- End of 3rd Project -->
+					</div>
+					<!-- End of Project Container -->
+				</main>
+			</div>
+			<!-- .content -->
+		</div>
+		<!-- .container-->
+
+	</div>
+	<!-- .middle-->
+	<!-- .wrapper -->
+
+	<!-- Fotter start -->
+	<footer class="footer footer-projects">
+		<!-- Contact -->
+		<div id="footer-contact">
+			<strong>Contact:</strong> <br>
+			<div id="contact-container">
+				<!-- Phones -->
+				<div id="phone">
+					<h4>Phone Number:</h4>
+					<div id="numbers"><a href="tel:+40726767648">+40726767648</a> <br>
+						<a href="tel:+40744320922">+40744320922</a> </div>
+				</div>
+				<!-- E-Mail and Physical Address -->
+				<p> E-Mail: <a href="mailto:danielcojocaru&#64;centrul-solomon&#46;ro">Daniel Cojocaru</a></p>
+				<p> Address: Bd. Valea Cetatii, Brasov, Romania</p>
+			</div>
+		</div>
+		<!-- Empty container for creating a line -->
+		<div id="line"></div>
+
+		<!-- Social Media Container -->
+		<div id="social-media">
+			<h2>SOCIAL</h2>
+			<!-- Facebook Link Icon -->
+			<div>
+				<a href="https://www.facebook.com/AsociatiaSolomon/"> <img src="../images/icons/facebook.png" alt="facebook_icon_logo"> </a>
+			</div>
+			<!-- Instagram Link Icon -->
+			<div>
+				<a href="http://www.instagram.com"> <img src="../images/icons/instagram.png" alt="instagram_icon_logo logo"> </a>
+			</div>
+			<!-- LinkedIn Link Icon-->
+			<div>
+				<a href="http://www.linkedin.com"> <img src="../images/icons/linkedin.png" alt="linkedin_icon_logo"> </a>
+			</div>
+		</div>
+		<!-- Copyrights Text-->
+		<div id="mark">
+			<small> Copyrights &copy; Solomon &#8226; 2018 </small>
+		</div>
+
+		<script type="application/ld+json">
+			{
+				"@context": "http://synaptycstudio.org/",
+				"@type": "Non-Gouvernamental Organization",
+				"url": "http://synaptycstudio.org/",
+				"name": "Center of Excellence and Development SOLOMON.",
+				"contactPoint": {
+					"@type": "ContactPoint",
+					"telephone": "+40744320922",
+					"contactType": "Customer service"
+				}
+			}
+
+		</script>
+
+	</footer>
+	<!-- .footer -->
+</body>
+
+</html>

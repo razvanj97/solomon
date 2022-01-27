@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang=en-gb>
+
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121053879-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-121053879-1');
+
+	</script>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="images/icons/logo32px.png" />
+	<title> Main Page &ndash; CED Solomon Contact </title>
+	<link href="style/style.css" rel="stylesheet">
+	<meta name="keywords" content="Main Page &ndash; CED Solomon, Personal development for youth, Professional development, personal development courses, youth development, Non-formal education, Non-formal activities, Self-knowledge youth education, activities for the youth, european youth projects, European youth exchange, multicultural experience" />
+
+	<meta name="description" content="Center of Excellence SOLOMON is a NGO based in Brasov, Romania, focused on helping youth to develop and self-develop through team activities, summer camps." />
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<div class="animated-background">
+			<!-- Beginning of the header -->
+			<header class="header">
+
+				<!-- Special Buttons - Donante & Become a member -->
+				<div id="header-actions">
+					<div id="donate">
+						<a href="#"> <strong> DONATE </strong> </a>
+					</div>
+					<div id="member">
+						<a href="#"><strong> BECOME A MEMBER </strong> </a>
+					</div>
+				</div>
+
+				<!-- Logo & Hamburger menu container -->
+
+				<div id="logo">
+					<a href="index.html"><img src="images//icons/logosolomon.png" alt="logo"></a>
+				</div>
+
+				<!-- Menu Area -->
+				<div class="burger-menu" onclick="myFunction(this)">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
+				<!-- Function to show/hide the menu and change the animation -->
+				<script>
+					function myFunction(y) {
+						var x = document.getElementById("menu-display");
+						if (x.style.display === "flex") {
+							x.style.display = "none"
+						} else {
+							x.style.display = "flex"
+						}
+						y.classList.toggle("change");
+					}
+
+				</script>
+
+				<!-- Here is the menu list for Mobile -->
+				<div class="menu-elements" id="menu-display">
+					<strong>MENU</strong><br>
+					<a href="pages/activities.html" id="activity">Activity</a>
+					<a href="pages/about-us.html" id="about_us">About Us</a>
+					<a href="#" id="team">Team</a>
+					<a href="#" id="partners"> Partners </a>
+					<a href="#footer-contact" id="contact">Contact</a>
+				</div>
+				<!-- Menu List for Tablet and Desktop Mode -->
+				<div class="menu-elements-desktop">
+					<a href="pages/activities.html" id="activity-desktop">Activity</a>
+					<a href="pages/about-us.html" id="about_us-desktop">About Us</a>
+					<a href="#" id="team-desktop">Team</a>
+					<a href="#" id="partners-desktop"> Partners </a>
+					<a href="#footer-contact" id="contact-desktop">Contact</a>
+				</div>
+			</header>
+			<!-- end of .header-->
+
+
+			<div class="middle">
+				<div class="container">
+					<!-- Title -->
+					<main class="main-content">
+						<h1> <strong> "WE </strong> give the people the resources to develop, experiment and live their <br>
+						</h1>
+						<strong class="word" id="green-text"> IDEAS </strong> <br>
+						<strong class="word" id="yellow-text"> DREAMS </strong> <br>
+						<strong class="word" id="red-text"> PASSIONS."</strong>
+					</main>
+					<!-- .content -->
+				</div>
+				<!-- .container-->
+			</div>
+			<!-- .middle-->
+
+		</div>
+		<!-- .wrapper -->
+	</div>
+	<!-- Animated Background -->
+	<!-- Fotter start -->
+
+
+	<footer class="footer">
+		<!-- Contact -->
+		<div id="footer-contact">
+			<strong>Contact:</strong> <br>
+			<div id="contact-container">
+				<!-- Phones -->
+				<div id="phone">
+					<h4>Phone Number:</h4>
+					<div id="numbers"><a href="tel:+40726767648">+40726767648</a> <br>
+						<a href="tel:+40744320922">+40744320922</a> </div>
+				</div>
+				<!-- E-Mail and Physical Address -->
+				<p> E-Mail: <a href="mailto:danielcojocaru&#64;centrul-solomon&#46;ro">Daniel Cojocaru</a></p>
+				<p> Address: Bd. Valea Cetatii, Brasov, Romania</p>
+			</div>
+		</div>
+		<!-- Empty container for creating a line -->
+		<div id="line"></div>
+
+		<!-- Social Media Container -->
+		<div id="social-media">
+			<h2>SOCIAL</h2>
+			<!-- Facebook Link Icon -->
+			<div>
+				<a href="https://www.facebook.com/AsociatiaSolomon/"> <img src="images/icons/facebook.png" alt="facebook_icon_logo"> </a>
+			</div>
+			<!-- Instagram Link Icon -->
+			<div>
+				<a href="http://www.instagram.com"> <img src="images/icons/instagram.png" alt="instagram_icon_logo logo"> </a>
+			</div>
+			<!-- LinkedIn Link Icon-->
+			<div>
+				<a href="http://www.linkedin.com"> <img src="images/icons/linkedin.png" alt="linkedin_icon_logo"> </a>
+			</div>
+		</div>
+		<!-- Copyrights Text-->
+		<div id="mark">
+			<small> Copyrights &copy; Solomon &#8226; 2018 </small>
+		</div>
+		
+			<script type="application/ld+json">
+			{
+				"@context": "http://synaptycstudio.org/",
+				"@type": "Non-Gouvernamental Organization",
+				"url": "http://synaptycstudio.org/",
+				"name": "Center of Excellence and Development SOLOMON.",
+				"contactPoint": {
+					"@type": "ContactPoint",
+					"telephone": "+40744320922",
+					"contactType": "Customer service"
+				}
+			}
+
+		</script>
+
+	</footer>
+	<!-- .footer -->
+
+</body>
+
+</html>
